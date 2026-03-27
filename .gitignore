@@ -1,0 +1,31 @@
+# Environment
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights (too large for repo)
+~/.cache/qwen3-tts/
+
+# Build artifacts
+*.so
+*.egg-info/
+dist/
+build/
+
+# Kernel JIT cache (auto-rebuilt)
+/kernel/qwen_megakernel/__pycache__/
+
+# Output files
+output/
+*.wav
+nohup.out
+
+# Internal planning docs
+IMPLEMENTATION_STEPS.md
+PLAN.md
+takehome_project.docx.pdf
+
+# IDE
+.claude/

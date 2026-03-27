@@ -1,0 +1,31 @@
+# Core ML
+torch>=2.5.0
+safetensors
+numpy
+
+# HuggingFace
+huggingface-hub
+accelerate
+transformers>=4.51.0
+
+# Qwen3-TTS
+qwen-tts
+
+# Pipecat pipeline
+pipecat-ai>=0.0.107
+websockets
+
+# Audio
+pyaudio
+soundfile
+
+# TTS HTTP server (demo)
+flask
+
+# Demo client
+openai
+requests
+python-dotenv
+
+# Kernel JIT build
+ninja
